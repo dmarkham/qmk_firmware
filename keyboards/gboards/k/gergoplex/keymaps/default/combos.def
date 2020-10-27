@@ -1,15 +1,15 @@
 // List any combo dictionaries you want loaded to 
 // your device below!
 
-#include "combos/k8.def"
+// #include "combos/k8.def"
 // Word completion
-#include "combos/eng-combos.def"
+// #include "combos/eng-combos.def"
 
 // QMK wide includes
 //#include "combos/germ-mouse-keys.def"
 
 // User includes
-#include "gergoplex.def"
+ #include "gergoplex.def"
 
-#include "combos/germ-vim-helpers.def"
+ #include "combos/germ-vim-helpers.def"
 
