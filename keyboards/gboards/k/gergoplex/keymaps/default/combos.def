@@ -1,7 +1,7 @@
 // List any combo dictionaries you want loaded to 
 // your device below!
 
-// #include "combos/k8.def"
+ #include "combos/k8.def"
 // Word completion
 // #include "combos/eng-combos.def"
 
