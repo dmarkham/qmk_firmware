@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_RBRC,
       KC_BSLS,
       KC_DEL,
-      KC_CAPS,
+      KC_WSCH,
       KC_A,
       KC_S,
       KC_D,
@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_SCLN,
       KC_QUOT,
       KC_ENT,
-      KC_PGUP,
+      KC_NO,
       KC_LSFT,
       KC_Z,
       KC_X,
@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_SLSH,
       KC_RSFT,
       KC_UP,
-      KC_PGDN,
+      KC_NO,
       KC_LCTL,
       KC_LALT,
       KC_LGUI,
@@ -87,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_RGHT
       ),
   [1] = LAYOUT_65_ansi(
-      KC_GRV,
+          KC_GRV,
       KC_F1,
       KC_F2,
       KC_F3,
@@ -130,7 +130,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRNS,
       KC_TRNS,
       KC_INS,
-      KC_HOME,
+      KC_PGUP,
       KC_LSFT,
       KC_TRNS,
       KC_TRNS,
@@ -144,7 +144,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRNS,
       KC_RSFT,
       KC_VOLU,
-      KC_END,
+      KC_PGDN,
       KC_LCTL,
       KC_LALT,
       KC_LGUI,
@@ -154,5 +154,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_RCTL,
       KC_BRIU,
       KC_VOLD,
-      KC_BRID)
+      KC_BRID
+  )
 };
